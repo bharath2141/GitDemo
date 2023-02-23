@@ -20,6 +20,7 @@ public class ErrorValidationTest extends BaseTest {
 	{
 		ProductCatalogPage pc=lp.loginApplication("bharathreddy1428@gmail.com","bharath1428");
 		Assert.assertEquals(lp.getErrorMsg(), "Incorrect email  password.");
+		System.out.println("adding piece of code to check git working or not");
 	}
 	
 	@Test(groups="ErrorHandling")

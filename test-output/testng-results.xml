@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-20T14:58:34 IST" name="Suite" finished-at="2023-02-20T15:01:19 IST" duration-ms="164968">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" name="loginErrorValidation" class="rahulshettyacademy.tests.ErrorValidationTest"/>
+        <method signature="ErrorValidationTest.productErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" name="productErrorValidation" class="rahulshettyacademy.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" name="submitOrder" class="rahulshettyacademy.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-02-20T14:58:34 IST" name="Submit Order Test" finished-at="2023-02-20T15:00:30 IST" duration-ms="116324">
+      <class name="rahulshettyacademy.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T14:58:35 IST" name="launchApplication" finished-at="2023-02-20T14:59:06 IST" duration-ms="31748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T14:59:06 IST" name="submitOrder" data-provider="getData" finished-at="2023-02-20T14:59:31 IST" duration-ms="24271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=Funday@16, email=bharathreddy1428@gmail.com, productName=zara coat 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T14:59:31 IST" name="closeBrowser" finished-at="2023-02-20T14:59:47 IST" duration-ms="16282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T14:59:47 IST" name="launchApplication" finished-at="2023-02-20T14:59:57 IST" duration-ms="10363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T14:59:57 IST" name="submitOrder" data-provider="getData" finished-at="2023-02-20T15:00:20 IST" duration-ms="22676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=Iamking@000, email=shetty@gmail.com, productName=Adidas Original}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T15:00:20 IST" name="closeBrowser" finished-at="2023-02-20T15:00:20 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T15:00:20 IST" name="launchApplication" finished-at="2023-02-20T15:00:28 IST" duration-ms="8067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T15:00:28 IST" name="OrderHistoryTest" finished-at="2023-02-20T15:00:30 IST" depends-on-methods="rahulshettyacademy.tests.SubmitOrderTest.submitOrder" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@5460cf3a]" started-at="2023-02-20T15:00:30 IST" name="closeBrowser" finished-at="2023-02-20T15:00:30 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- rahulshettyacademy.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2023-02-20T15:00:32 IST" name="Error Validation Test" finished-at="2023-02-20T15:01:19 IST" duration-ms="46643">
+      <class name="rahulshettyacademy.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:00:32 IST" name="launchApplication" finished-at="2023-02-20T15:00:43 IST" duration-ms="10695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:00:43 IST" name="loginErrorValidation" finished-at="2023-02-20T15:00:44 IST" duration-ms="588" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at rahulshettyacademy.tests.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:00:44 IST" name="closeBrowser" finished-at="2023-02-20T15:00:44 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:00:44 IST" name="launchApplication" finished-at="2023-02-20T15:00:51 IST" duration-ms="7432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:00:51 IST" name="loginErrorValidation" finished-at="2023-02-20T15:00:52 IST" duration-ms="706" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at rahulshettyacademy.tests.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:00:52 IST" name="closeBrowser" finished-at="2023-02-20T15:00:52 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:00:52 IST" name="launchApplication" finished-at="2023-02-20T15:01:01 IST" duration-ms="9165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:01:01 IST" name="loginErrorValidation" finished-at="2023-02-20T15:01:02 IST" duration-ms="584" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at rahulshettyacademy.tests.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:01:02 IST" name="closeBrowser" finished-at="2023-02-20T15:01:03 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:01:03 IST" name="launchApplication" finished-at="2023-02-20T15:01:10 IST" duration-ms="7538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:01:10 IST" name="productErrorValidation" finished-at="2023-02-20T15:01:19 IST" duration-ms="8309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@517d4a0d]" started-at="2023-02-20T15:01:19 IST" name="closeBrowser" finished-at="2023-02-20T15:01:19 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- rahulshettyacademy.tests.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -25,6 +25,7 @@ public class ErrorValidationTest extends BaseTest {
 
 		System.out.println("adding piece of code to check git working or not");
 		System.out.println("update from git demo2");
+		System.out.println("update from gitstuff2");
 
 	}
 	

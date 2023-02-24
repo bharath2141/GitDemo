@@ -26,6 +26,7 @@ public class ErrorValidationTest extends BaseTest {
 		System.out.println("adding piece of code to check git working or not");
 		System.out.println("update from gitstuff3");
 		System.out.println("update from gitstuff2");
+		System.out.println("develop branch in demo");
 
 	}
 	
@@ -38,6 +39,6 @@ public class ErrorValidationTest extends BaseTest {
 		CartPage cp = pc.clickOnCart();
 		boolean match = cp.verifyingProductInCart("fdkdl");
 		Assert.assertFalse(match);
-	}
+		System.out.println("develop branch in demo");}
 
 }
